@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-image: url('../img/sfondo.jpeg');
+  background-size: cover;
+  font-family: 'Raleway', sans-serif;
+}
+
+#contenitore {
+  width: 70%;
+  margin: 0 auto;
+
+}
+/* sezione header */
+#titolo {
+  color: #fff;
+  font-size: 50px;
+}
+#logo {
+  vertical-align: middle;
+  width: 100px;
+  height: auto;
+}
+/* sezione ricerca */
+#nonlette {
+  color: #fff;
+  font-size: 25px;
+  margin: 15px 0;
+}
+/* unread emails */
+.badge {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  background-color: orange;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 50px;
+}
+/* lista e mail */
+.email-row {
+  background-color: white;
+  padding: 5px;
+  border: 2px solid black;
+}
+.intro::after {
+  content: '...'
+}
+
+.ciao::after {
+  content: ' -'
+}
+.read {
+  background-color: #fff;
+}
+.unread {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+#footer {
+  color: #fff;
+  font-size: 20px;
+  text-align: right;
+  display: block;
+  margin-top: 80px;
+}
